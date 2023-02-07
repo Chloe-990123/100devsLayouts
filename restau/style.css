@@ -178,4 +178,70 @@ p + button:hover {
     justify-content: center;
     
 }
+
+/*-------------------------*/
+
+.book {
+    height: 900px;
+    background-image: url("./img/muffin.jpg");
+    background-size: cover;
+}
+
+.table, .ding {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.ding {
+    gap: 0.5em;
+    font-size: 20px;
+}
+
+.table span, .table h2, .ding i, .ding p, .ding h4 {
+    display: flex;
+    justify-content: center;
+}
+
+.table span, .ding {
+    margin-top: 2em;
+}
+
+.ding i, .ding h4, .table span {
+    color: rgb(238, 152, 95);
+}
+
+.hours {
+    display: flex;
+    justify-content: center;
+    gap: 15em;
+
+}
+.hours-left, .hours-right {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.hours-left p+p, .hours-right p+p {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 20px;
+}
+
+.video {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+
+iframe {
+    width: 700px;
+    height: 400px;
+}
+
+
 /* mobile responsive */
