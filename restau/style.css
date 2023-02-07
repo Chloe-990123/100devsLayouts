@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    box-sizing: border-box;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./img/peaches.jpeg");
+    background-size: cover;
+    height: 900px;
+    background-repeat: no-repeat;
+}
+
+.links ul {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 2em;
+    color: black;
+    list-style: none;
+    gap: 2.5em;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.lower {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 60%;
+    margin-left: 3em;
+}
+
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 90px;
+    margin-top: 2.3em;
+}
+
+.a {
+    display: flex;
+    gap: 0;
+    margin-top: 2em;
+}
+
+.a button {
+    width: 100px;
+    height: 50px;
+    background: none;
+    /*background-color: rgb(238, 152, 95);*/
+    border: 0px;
+    color: black;
+    font-family: Roboto;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: 2px solid black;
+    border-right:2px solid black;
+    border-bottom: 2px solid black;
+
+}
+
+.a button:hover {
+    background: white;
+    color: rgb(238, 152, 95);
+}
+
+input {
+    display: flex;
+    width: 630px;
+    border: 2px solid black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: none;
+}
+/*-------------------------------------*/
+
+.aboutus {
+    height: 900px;
+    background-image: url("./img/2.jpg");
+    background-size: cover;
+}
+
+.mt {
+    float: right;
+    height: 900px;
+    width: 20%;
+}
+
+.disc {
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 50%;
+    padding-left: 2em;
+    justify-content: start;
+}
+
+.abus {
+    margin: 4em 0em 0em 0em;
+    color: rgb(238, 152, 95);
+}
+
+h2 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 70px;
+}
+
+h2 + p, p + p {
+    font-weight: 100;
+}
+
+h2 + p {
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+p + button {
+    margin-top: 4em;
+    width: 150px;
+    height: 50px;
+    background: none;
+    border: 2px groove black;
+    border-radius: 10px;
+
+}
+
+.discover {
+    text-decoration: none;
+    color: black;
+}
+
+p + button:hover {
+    color: black;
+    box-shadow: 8px 8px rgb(238, 152, 95);
+    transition: .3s;
+}
+
+/*------------------------------------------*/
+
+.our {
+    background-color: rgb(233,233,231);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
+}
+.images img {
+    height: 300px;
+    width: 200px;
+}
+
+.title-c {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.title-c span {
+    color:rgb(238, 152, 95);
+}
+
+.images {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    
+}
+/* mobile responsive */
