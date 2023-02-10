@@ -257,16 +257,19 @@ main {
         height: 58vh;
         float: left;
     }
+
+
 }
 
 /*-----------section "ingredients"-----------*/
 
 .ingredients {
-    height: 90vh;
+    height: 70vh;
+    background-color: rgb(236,236,239);
 }
 
 .ingredients .blank, .ingredients .blankr {
-    height: 90vh;
+    height: 70vh;
     float: left;
 }
 
@@ -275,38 +278,79 @@ main {
 }
 
 .list3 {
-    display: flex;
+    float: left;
     width: 80vw;
-    height: 90vh;
-    justify-content: space-between;
-    margin-top: 3rem;
-}
-
- .desc {
-
- }
-
- .ingredients img {
-    width: 17rem;
-    height: 23rem;
-}
-
-
-
-.box {
+    height: 70vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+    
+}
+.desc {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.ingredients img {
+    width: 18rem;
+    height: 22rem;
+    border-radius: 8px;
+    border: 0.4rem inset rgb(209,177,122);
+    
 }
 
 .hmm {
-    
-    border: 0.1rem solid black;
-    width: 13rem;
-    height: 4rem;
+    margin-top: 1rem;
 }
 
-/*--------------------------------------*/
+.hmm h6 {
+    margin-bottom: 0.3rem;
+    font-size: 1.5rem;
+    font-family: 'League Script', cursive;
+}
+
+.hmm span {
+    font-size: 0.8rem;
+}
+
+/*make pictures responsive*/
+@media only screen and (max-width: 1300px) {
+    .ingredients {
+        height: 160vh;
+        display: flex;
+        float: left;
+        
+    }
+
+    .ingredients .blank, .ingredients .blankr {
+        height: 160vh;
+        float: left;
+    }
+
+    .ingredients .blankr {
+        float: right;
+    }
+
+    .list3 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 34vh;
+        gap: 2rem;
+    }
+
+    .ingredients img {
+        width: 13rem;
+        height: 15rem;
+    }
+}
+
+/*-----------------section "ad"------------------------*/
 
 .ad {
-    height: 70vh;
+    height: 50vh;
+    background-color: black;
 }
