@@ -265,7 +265,7 @@ main {
 
 .ingredients {
     height: 70vh;
-    background-color: rgb(236,236,239);
+    
 }
 
 .ingredients .blank, .ingredients .blankr {
@@ -298,7 +298,7 @@ main {
 .ingredients img {
     width: 18rem;
     height: 22rem;
-    border-radius: 8px;
+    border-radius: 100px;
     border: 0.4rem inset rgb(209,177,122);
     
 }
@@ -320,14 +320,14 @@ main {
 /*make pictures responsive*/
 @media only screen and (max-width: 1300px) {
     .ingredients {
-        height: 160vh;
+        height: 140vh;
         display: flex;
         float: left;
         
     }
 
     .ingredients .blank, .ingredients .blankr {
-        height: 160vh;
+        height: 140vh;
         float: left;
     }
 
@@ -350,7 +350,104 @@ main {
 
 /*-----------------section "ad"------------------------*/
 
+.ad .blank , .ad .blankr {
+    height: 50vh;
+    float: left;
+    
+}
+
+.ad .blankr {
+    float: right;
+}
+
 .ad {
     height: 50vh;
-    background-color: black;
+    float: left;
+    display: flex;
+    justify-content: center;
 }
+
+
+.add {
+    height: 50vh;
+    width: 80vw;
+    background-image: url("./images/best.jpg");
+    background-size: cover;
+    background-position: left bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.add span, .add h3, .add a {
+    margin-left: 5vw;
+    color: white;
+}
+
+.add span {
+    font-size: 1rem;
+}
+
+.add h3 {
+    font-size: 2rem;
+    width: 40vw;
+    margin: 1rem 0rem 1.5rem 5vw;
+}
+
+.add a {
+    border: 0.1rem solid white;
+    width: 8rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+/*---------------class="gallery"----------*/
+
+.gallery .blank, .gallery .blankr{
+    height: 150vh;
+    float: left;
+   
+}
+
+.gallery .blankr {
+    float: right;
+}
+
+.gallery {
+    float: left;
+    height: 150vh;
+}
+
+
+.topped {
+    width: 80vw;
+}
+
+/*
+.gallery h2, .gallery i {
+    display: flex;
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+}
+.galleries {
+    width: 80vw;
+    height: 160vh;
+}
+.etage1 .img1 {
+    float: left;
+    width: 30%;
+    height: 10vh;
+    background-color: antiquewhite;
+}
+
+.etage1 .img2 {
+    float: left;
+    width: 50%;
+    height: 10vh;
+    background-color: aquamarine;
+}*/
+
+
+/*minis and realcloseup/ bigstraw,background/ bignfancy,minisprinkle*/
+
