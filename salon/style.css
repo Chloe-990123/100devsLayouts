@@ -437,6 +437,14 @@ main {
     height: 160vh;
     margin-top: 5rem;
 }
+
+.etage1 *, .etage2 *, .etage3 * {
+    border-radius: 30px;
+}
+
+
+
+
 .etage1 .img1 {
     float: left;
     width: 30vw;
