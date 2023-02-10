@@ -361,7 +361,7 @@ main {
 }
 
 .ad {
-    height: 50vh;
+    height: 40vh;
     float: left;
     display: flex;
     justify-content: center;
@@ -403,7 +403,7 @@ main {
 
 /*---------------class="gallery"----------*/
 
-.gallery .blank, .gallery .blankr{
+.gallery .blank, .gallery .blankr{ 
     height: 150vh;
     float: left;
    
@@ -415,39 +415,93 @@ main {
 
 .gallery {
     float: left;
-    height: 150vh;
-}
-
-
-.topped {
-    width: 80vw;
-}
-
-/*
-.gallery h2, .gallery i {
+    height: 200vh;
     display: flex;
-    width: 80vw;
-    justify-content: center;
-    align-items: center;
+    margin-top: 12rem;
+    background-color: rgb(209,177,122);
 }
+
+.field {
+    width: 80vw;
+    text-align: center;
+}
+
+.topped h2 {
+    font-size: 3rem;
+    font-family: 'Cormorant Garamond', serif;
+    margin-top: 5rem;
+}
+
 .galleries {
     width: 80vw;
     height: 160vh;
+    margin-top: 5rem;
 }
 .etage1 .img1 {
     float: left;
-    width: 30%;
-    height: 10vh;
-    background-color: antiquewhite;
+    width: 30vw;
+    height: 35vh;
+    background-image: url("./images/minis.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-right: 1rem solid rgb(209,177,122);
 }
 
 .etage1 .img2 {
     float: left;
-    width: 50%;
-    height: 10vh;
-    background-color: aquamarine;
-}*/
+    width: 50vw;
+    height: 35vh;
+    background-image: url("./images/realcloseup.jpg");      
+    background-size: cover;              
+    background-repeat: no-repeat;
+    background-position: center center;  
+}
 
+.etage2 .img3 {
+    float: left;
+    width: 40vw;
+    height: 50vh;
+    background-image: url("./images/bigstrawberry.jpg");
+    background-size: cover;              
+    background-repeat:  no-repeat;
+    background-position: center center; 
+    border-top: 1rem solid rgb(209,177,122);
+}
 
+.etage2 .img4 {
+    float: left;
+    width: 40vw;
+    height: 50vh;
+    background-size: cover;              
+    background-repeat:  no-repeat;
+    background-position: center center; 
+    border-top: 1rem solid rgb(209,177,122);
+    border-left: 1rem solid rgb(209,177,122);
+    background-image: url("./images/background.jpeg");
+}
+
+.etage3 .img5 {
+    float: left;
+    width: 60vw;
+    height: 35vh;
+    background-size: cover;              
+    background-repeat:  no-repeat;
+    background-position: center center; 
+    border-top: 1rem solid rgb(209,177,122);
+    background-image: url("./images/bignfancy.jpg");
+}
+
+.etage3 .img6 {
+    float: left;
+    width: 20vw;
+    height: 35vh;
+    background-size: cover;              
+    background-repeat:  no-repeat;
+    background-position: center center;
+    border-top: 1rem solid rgb(209,177,122);
+    border-left: 1rem solid rgb(209,177,122);
+    background-image: url("./images/minisprinkle.jpg");
+
+}
 /*minis and realcloseup/ bigstraw,background/ bignfancy,minisprinkle*/
 
